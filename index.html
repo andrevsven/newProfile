@@ -8,10 +8,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
 </head>
 <body>
-	<header>
+		<div id="fullpage">
+	<header >
 		<div class="wrapper">
 			<div class="header-wrap">
 				<div class="logo"><a href="#">Веб-дизайн</a></div>
@@ -23,23 +24,23 @@
         </ul>
 		</div>
 	</header>
-	<section class="fon">
+	<section class="section fon">
 		<div class="wrapper">
-			<div class="fon__item">
-				<h1>sixtier<br>
+			<div class="slide fon__item">
+				<h1 class="fon_log">sixtier<br>
 					design<br>
 					studio<br>
 				</h1>
-			<p>Мы делаем дизайн сайтов,<br>
+			<p class="fon_text">Мы делаем дизайн сайтов,<br>
 				логотипов и фирменных стилей,<br>
 				печатной продукции<br></p>
 			</div>
 		</div>
 	</section>
-<section class="work">
+<section class="section work">
 	<div class="wrapper">
-		<div class="work__item">
-			<h2>Работы</h2>
+		<div class="slide work__item">
+			<h2 class="work_text">Работы</h2>
 			<a href=""><img src="img/pruf1.png" alt="" class="work_img"></a>
 				<a href=""><img src="img/pruf2.png" alt="" class="work_img"></a>
 				<a href=""><img src="img/pruf3.png" alt="" class="work_img"></a>
@@ -50,6 +51,9 @@
 		</div>
 	</div>
 </section>
-
+</div>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </body>
 </html>
