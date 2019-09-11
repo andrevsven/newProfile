@@ -70,11 +70,14 @@ height: 25px;
 }
 .big{
 	width: 580.79px;
+	height: 580px;
 }
 img{
 	width: 280.42px;
 	margin: 0;
 	padding: 0;
+	box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.25);
+	margin: 8px;
 }
 .item1{ 
 	display: flex;
@@ -92,5 +95,5 @@ img{
 .item1_colum2{
 	width: 600px;
 	display: inline-block;
-	padding-left:20px;
+	
 }
