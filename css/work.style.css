@@ -71,6 +71,8 @@ height: 25px;
 .big{
 	width: 580.79px;
 	height: 580px;
+	margin-left: 15px;
+	border-radius: 2%;
 }
 img{
 	width: 280.42px;
@@ -78,6 +80,8 @@ img{
 	padding: 0;
 	box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.25);
 	margin: 8px;
+	border-radius: 5%;
+	
 }
 .item1{ 
 	display: flex;
