@@ -95,15 +95,17 @@ color: #2D2805;
 }
 .work__item{
   max-width: 1200px;
+  
 	text-align: center;
 }
 .work_img{
   width: 350px;
+  
 }
 .work_text{
   padding-top:30px ;
   padding-left: 75px;
-  padding-bottom: 10px;
+
   max-width: 1400px;
 text-align: left;
 font-style: normal;
@@ -124,7 +126,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 text-align: center;
-margin-top: 84px;
+margin-top: 44px;
 margin-bottom: 100px;
 }
 .active{
@@ -132,3 +134,24 @@ margin-bottom: 100px;
   font-size: 18px;
 }
 
+img{
+  
+	margin: 0;
+	padding: 0;
+	box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.25);
+	margin: 8px;
+	border-radius: 5%;
+	
+}
+@media (max-width: 1800px) {
+  .work_img{width: 320px;}
+ }
+@media (max-width: 1800px){
+  .work__item{max-width: 1100px;}
+}
+@media (max-width: 1700px) {
+  .work_img{width: 280px;}
+ }
+@media (max-width: 1700px){
+  .work__item{max-width: 1000px;}
+}
